@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+
+   background-color: cadetblue;
+   font-family:serif
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main h2{
+
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.user input{
+
+    border-radius:50px;
+    height: 30px;
+    width: 200px;
+}
+ h1{
+
+    text-align: center;
+    padding-top: 70px;
+}
+.main button{
+    border-radius:50px;
+    height: 30px;
+    width: 100px;
+}
+
+.para p{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.user ::placeholder{
+    color: black;
+    text-align: center;
+}
+
+.verify{
+    text-align: center;
+    justify-content: center;
+}
+.verify input{
+    margin: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.verify button{
+    margin: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.verify ::placeholder{
+    color: black;
+    text-align: center;
+}
+
+.option{
+    text-align: center;
+    padding: 20px;
+}
+.option ul{
+
+    text-decoration: none;
+    padding: 20px;
+    
+}

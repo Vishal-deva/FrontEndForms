@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+   <!-- ? <link rel="stylesheet" href="Stylesheet.css"> -->
+    <div>
+        <h1>Welcome To Bike rent Application</h1><br>
+    </div>
+    <div class="main">
+        <form onsubmit="login(event)">
+        <div>
+            <h2>Login</h2>
+        </div>
+        <div class="user">
+            <input type="text" id="UserName" placeholder="Username"><br><br>
+        </div>
+        <div class="user">
+            <input type="password" id="Password" placeholder="Password"><br><br>
+        </div>
+        <div  class="label">
+            <input type="checkbox"  onclick="Showpassword() ">ShowPassword<br><br>
+        </div>
+        <div>
+            <button type="submit">Login</button>
+        </div>
+        <div class="para">
+            <p>Don't have a account?  <a href="registration.html"> Register</a></p>
+        </div>
+        <div class="para1">
+            <p>Forgot Your Password!<a href="Forgot.html">ForgotPassword</a></p>
+        </div>
+    </form>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
